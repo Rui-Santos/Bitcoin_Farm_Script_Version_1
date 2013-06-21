@@ -1,0 +1,65 @@
+######################################################################
+#####  ###  ####    ##   ##   ###  ####  ###   ## ### ####  ###  #####
+## ###  ###  ### ## ### #### ### ## ## ## ### ###  ## ###  ###  ### ##
+##  ###  ###  ##   #### #### ### ##### ## ### ### # # ##  ###  ###  ##
+## ###  ###  ### ## ### #### ### ## ## ## ### ### ##  ###  ###  ### ##
+#####  ###  ####    ##   ### ####  ####  ###   ## ### ####  ###  #####
+######################################################################
+####                                                              ####
+####   Bitcoin Farm                                               ####
+####                                                              ####
+####          Bitcoin account management for the masses.          ####
+####                                                              ####
+####                               Created by: Bitcoin Socially   ####
+####                                                              ####
+######################################################################
+######################################################################
+
+Uploading the script:
+
+   Do not edit the config files, use installer!
+
+   Upload the folders "www" and "www_private" to your server.
+
+   If using WAMP server on windows place both folders in the "wamp"
+   directory, replacing the existing "www" folder.
+
+   The folders should be placed as follows:
+
+      /root/www/
+      /root/www_private/
+
+   The domain should be set up towards /root/www/
+   Keeping /root/www_private/ out of the public scope.
+
+
+How to install:
+
+   Do not edit the config files, use installer!
+
+   Begin here once you uploaded the script following the guidlines
+   written above.
+
+   Run install.php
+      http://localhost/install.php or http://domain.com/install.php
+
+   Set up the bitcoin.conf as shown on the bottom of the install page.
+
+   Complete the two step process. Once done completing the form the
+   script will modify the config files for you.
+
+   You should be able to go to index.php and login now.
+   If you can login, delete the install.php file.
+
+
+Have an error? Try these:
+
+   Try uncommenting ;extension=php_openssl.dll in /apache/bin/php.ini
+      should look like extension=php_openssl.dll
+
+   If the above didn't work then check the placement of the script 
+   and/or try the installer again.
+
+
+######################################################################
+######################################################################

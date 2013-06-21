@@ -1,0 +1,234 @@
+body {
+   background: #3F3F3F;
+   color: #FFFFFF;
+   font-family: verdana;
+   font-size: 12px;
+   margin: 0px;
+   padding: 0px;
+}
+pre {
+   font-family: verdana;
+   font-size: 12px;
+   white-space: pre-wrap;       /* css-3 */
+   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+   white-space: -pre-wrap;      /* Opera 4-6 */
+   white-space: -o-pre-wrap;    /* Opera 7 */
+   word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+form {
+   margin: 0px;
+   padding: 0px;
+}
+table, td {
+   font-family: verdana;
+   font-size: 12px;
+   border-collapse: collapse;
+}
+input[type=submit] {
+   background: #0F0F0F;
+   border: 1px solid #3DDDDF;
+   color: #FFFFFF;
+   font-weight: bold;
+   padding: 2px;
+}
+input[type=submit]:hover {
+   background: #0F0F0F;
+   border: 1px solid #3DDDDF;
+   color: #3DDDDF;
+   font-weight: bold;
+   padding: 2px;
+}
+input[type=text] {
+   background: #E4E4E4;
+   border: 1px solid #0F0F0F;
+}
+input[type=password] {
+   background: #E4E4E4;
+   border: 1px solid #0F0F0F;
+}
+textarea {
+   background: #E4E4E4;
+   border: 1px solid #0F0F0F;
+}
+select {
+   background: #E4E4E4;
+   border: 1px solid #0F0F0F;
+}
+a:link {
+   color: #3DDDDF;
+   text-decoration: none;
+}
+a:active {
+   color: #3DDDDF;
+   text-decoration: none;
+}
+a:visited {
+   color: #3DDDDF;
+   text-decoration: none;
+}
+a:hover {
+   color: #BEEEEF;
+   text-decoration: underline;
+}
+.spacer {
+   height: 10px;
+}
+.inner-content {
+   padding: 10px;
+}
+.table-cellar {
+   border: 1px solid #0F0F0F;
+}
+.table-cell-head {
+   background: #0F0F0F;
+   border-top: 1px solid #3DDDDF;
+   border-bottom: 1px solid #0F0F0F;
+   font-weight: bold;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.table-cell {
+   background: #2F2F2F;
+   border-bottom: 1px solid #0F0F0F;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.table-eclipsecell-head {
+   background: #0F0F0F;
+   border-top: 1px solid #3DDDDF;
+   border-bottom: 1px solid #0F0F0F;
+   font-weight: bold;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 4px;
+   padding-right: 4px;
+}
+.table-eclipsecell {
+   background: #2F2F2F;
+   border-bottom: 1px solid #0F0F0F;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 4px;
+   padding-right: 4px;
+}
+.table-cell-forml {
+   background: #2F2F2F;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 20px;
+   padding-right: 10px;
+}
+.table-cell-formr {
+   background: #2F2F2F;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 10px;
+   padding-right: 20px;
+}
+.table-cell-spacer {
+   height: 10px;
+   background: #2F2F2F;
+}
+
+/* Top Bar Styling Starts Here */
+.head-bar {
+   width: 100%;
+   height: 44px;
+   background: #0F0F0F;
+   border: 0px none #0F0F0F;
+   border-bottom: 2px solid #3DDDDF;
+}
+.head-bar-table {
+   width: 900px;
+   height: 44px;
+   color: #3DDDDF;
+}
+/* Top Bar Styling Ends Here */
+
+
+/* Main Content Styling Starts Here */
+.content {
+   width: 900px;
+   border-top: 0px none #0F0F0F;
+   border-left: 1px solid #0F0F0F;
+   border-right: 1px solid #0F0F0F;
+   border-bottom: 1px solid #0F0F0F;
+}
+/* Main Content Styling Ends Here */
+
+
+/* Tabs Styling Starts Here */
+table.tabs {
+   margin-bottom: 10px;
+}
+td.tab {
+   width: 4px;
+   padding-left: 4px;
+   border-bottom: 2px solid #0F0F0F;
+}
+td.tab0 {
+   font-size: 1pt;
+   padding-left: 7px;
+   border-bottom: 2px solid #0F0F0F;
+}
+td.tab1 {
+   border: 2px solid #0F0F0F;
+   border-bottom: none;
+   font-weight: bold;
+   padding: 6px 8px 6px 8px;
+}
+td.tab2 {
+   background: #1F1F1F;
+   border: 2px solid #0F0F0F;
+   font-weight: bold;
+   padding: 6px 8px 6px 8px;
+}
+td.tab2:hover {
+   background: #3F3F3F;
+}
+td.tab3 {
+   border-bottom: 2px solid #0F0F0F;
+   padding-right: 12px;
+   width: 100%;
+   text-align: right;
+   vertical-align: middle;
+}
+/* Tabs Styling Ends Here */
+
+
+/* Right Boxes Styling Starts Here */
+.box-header {
+   width: 240px;
+   background: #0F0F0F;
+   border: 1px solid #0F0F0F;
+   border-top: 1px solid #3DDDDF;
+   color: #FFFFFF;
+   font-weight: bold;
+   font-size: 11px;
+   padding: 6px;
+}
+.box-content {
+   width: 240px;
+   background: #2F2F2F;
+   border-top: 0px none #0F0F0F;
+   border-left: 1px solid #0F0F0F;
+   border-right: 1px solid #0F0F0F;
+   border-bottom: 1px solid #0F0F0F;
+   color: #FFFFFF;
+   padding: 6px;
+}
+.head-comment {
+   width: 210px;
+   background: #0F0F0F;
+   border-top: 0px solid #0F0F0F;
+   border-bottom: 1px solid #3DDDDF;
+   border-left: 1px solid #3DDDDF;
+   border-right: 1px solid #3DDDDF;
+   color: #3DDDDF;
+   padding-bottom: 4px;
+}
+/* Right Boxes Styling Ends Here */
